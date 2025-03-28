@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: white;
+}
+
+.container {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 0 auto;
+    margin-top: 0;
+    text-align: center;
+    background-image: url(images/PageEditor_Background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 180vh;
+}
+
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10%;
+    color: rgb(9, 89, 62);
+    font-size: 50px;
+    font-weight:bold;
+    letter-spacing: 8px;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    padding-left: 10%;
+    flex: 0 0 auto;
+    margin-right: 2rem;
+}
+
+.image img {
+    border-radius: 10px;
+    width: 300px; /* Set width for consistency */
+    height: 400px; /* Set height for consistency */
+}
+
+.text {
+    flex: 1;
+    text-align: left;
+}
+
+.text p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 50px;
+    padding-left: 30px;
+}
+p{
+    padding-bottom: 3%;
+    font-size: 20px;
+}
+.container a{
+    color: black;
+    font-size: 15px;
+}
+.container a:hover{
+    color: rgb(50, 139, 63);
+    text-decoration: none;
+}
+h3{
+    font-size: 25px;
+    padding-bottom: 1%;
+}
